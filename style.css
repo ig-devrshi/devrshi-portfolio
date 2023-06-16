@@ -258,7 +258,6 @@ button:hover {
     text-align: center;
     background-color: #ff406c;
     padding: 10px;
-    padding-top: 15px;
     margin: 0;
     font-family: "ubuntu", "sans-serif";
   }
@@ -266,6 +265,6 @@ button:hover {
     font-size: large;
     text-decoration: none;
     color: #ffa1b7;
-    margin: 10px 20px;
+    margin: 5px 10px;
   }
 }
