@@ -258,13 +258,12 @@ button:hover {
     text-align: center;
     background-color: #ff406c;
     padding: 10px;
-    margin: 0;
     font-family: "ubuntu", "sans-serif";
   }
   #footer a {
     font-size: large;
     text-decoration: none;
     color: #ffa1b7;
-    margin: 5px 10px;
+    margin: 0.8px 0.8px;
   }
 }
