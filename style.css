@@ -44,8 +44,8 @@ span {
 .second {
   background-color: #030e2d;
   margin-bottom: 5em;
-  background-image: linear-gradient(#091639c3, #030e2dc9),                  
-  url("./images/my\ photo2.jpg");
+  background-image: linear-gradient(#091639c3, #030e2dc9),
+    url("./images/my\ photo2.jpg");
   background-attachment: fixed;
   background-position: center;
 }
@@ -82,8 +82,8 @@ span {
   font-family: 'Montserrat', sans-serif;
   background-color: #030e2d;
   color: #ffffed;
-  background-image: linear-gradient(#091639c3, #030e2dc9),                  
-  url("./images/Portfolio.jpg");
+  background-image: linear-gradient(#091639c3, #030e2dc9),
+    url("./images/Portfolio.jpg");
   background-attachment: fixed;
   background-position: center;
 }
@@ -230,6 +230,10 @@ button:hover {
 
   .second {
     margin-bottom: 1em;
+    background-image: linear-gradient(#091639c3, #030e2dc9),
+      url("./images/Portfolio.jpg");
+    background-attachment: fixed;
+    background-position: center;
   }
 
   .image {
@@ -277,6 +281,7 @@ button:hover {
     width: 4%;
     margin: 70px auto;
   }
+
   .contact h2 {
     font-size: 2rem;
   }
@@ -325,7 +330,6 @@ button:hover {
 
   .image {
     height: 9rem;
-    ;
     margin-top: 1rem;
   }
 
@@ -369,7 +373,7 @@ button:hover {
 
   .program {
     grid-area: 2 / 2 / 2 / 3;
-    
+
   }
 
   .grid img {
@@ -397,7 +401,7 @@ button:hover {
 
   #footer {
     text-align: center;
-    
+
   }
 
   #footer a {
