@@ -269,6 +269,13 @@ button:hover {
   .grid img {
     width: 80%;
   }
+  .third {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(#091639c3, #030e2dc9),
+      url("./images/Portfolio.jpg");
+    background-attachment: fixed;
+    background-position: center;
+  }
 
   .third button {
     font-size: 1rem;
@@ -332,6 +339,13 @@ button:hover {
     height: 9rem;
     margin-top: 1rem;
   }
+  .second {
+    margin-bottom: 1em;
+    background-image: linear-gradient(#091639c3, #030e2dc9),
+      url("./images/Portfolio.jpg");
+    background-attachment: fixed;
+    background-position: center;
+  }
 
   .middle>h2 {
     font-size: 2rem;
@@ -378,6 +392,13 @@ button:hover {
 
   .grid img {
     width: 100%;
+  }
+  .third {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(#091639c3, #030e2dc9),
+      url("./images/Portfolio.jpg");
+    background-attachment: fixed;
+    background-position: center;
   }
 
   .third button {
