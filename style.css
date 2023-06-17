@@ -44,6 +44,10 @@ span {
 .second {
   background-color: #030e2d;
   margin-bottom: 5em;
+  background-image: linear-gradient(#091639c3, #030e2dc9),                  
+  url("./images/my\ photo2.jpg");
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .image {
@@ -78,6 +82,10 @@ span {
   font-family: 'Montserrat', sans-serif;
   background-color: #030e2d;
   color: #ffffed;
+  background-image: linear-gradient(#091639c3, #030e2dc9),                  
+  url("./images/Portfolio.jpg");
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .title {
