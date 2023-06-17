@@ -1,5 +1,6 @@
 body {
   background-color: #030e2d;
+  margin: 0px;
 }
 
 #hero {
@@ -7,13 +8,15 @@ body {
   position: relative;
 }
 
-.container {
+.container-fluid {
   text-align: center;
 }
 
 .sunset {
   width: 100%;
   opacity: 0.5;
+  left: 0px;
+  right: 0px;
 }
 
 .text-title {
@@ -86,11 +89,15 @@ span {
     url("./images/Portfolio.jpg");
   background-attachment: fixed;
   background-position: center;
+  padding-bottom: 3rem;
 }
 
+.c{
+  padding-top:2rem ;
+  
+}
 .title {
   font-size: 3rem;
-  margin-top: 5rem;
 }
 
 .c>.grid {
@@ -100,6 +107,7 @@ span {
   gap: 10px;
   color: #ffffed;
   margin-bottom: 3rem;
+  margin-top: 5rem;
 }
 
 .grid h2 {
@@ -217,23 +225,22 @@ button:hover {
     text-align: center;
     position: absolute;
     top: 10%;
-    left: 35%;
+    left: 30%;
     right: 30%;
     bottom: 5%;
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 
   .text-title>p {
     font-family: "Ubuntu", sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .second {
     margin-bottom: 1em;
-    background-image: linear-gradient(#091639c3, #030e2dc9),
-      url("./images/Portfolio.jpg");
+    background-image: linear-gradient(#091639c3, #030e2dc9), url("./images/my\ photo2.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-position: 35% 45%;
   }
 
   .image {
@@ -271,14 +278,14 @@ button:hover {
   }
   .third {
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(#091639c3, #030e2dc9),
-      url("./images/Portfolio.jpg");
+    background-image: linear-gradient(#091639e1, #030e2de6),
+      url("./images/tHE\ GAMING\ VIEW\ VISITING\ CARD\ BOTH\ SIDE\ VIEW.jpg");
     background-attachment: fixed;
     background-position: center;
   }
 
   .third button {
-    font-size: 1rem;
+    font-size: 1.6rem;
     cursor: pointer;
   }
 
@@ -295,6 +302,12 @@ button:hover {
 
   .contact p {
     font-size: 1rem;
+  }
+
+  .contact button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
   }
 
   #footer {
@@ -342,9 +355,9 @@ button:hover {
   .second {
     margin-bottom: 1em;
     background-image: linear-gradient(#091639c3, #030e2dc9),
-      url("./images/Portfolio.jpg");
+      url("./images/my\ photo2.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-position: 35% 45%;
   }
 
   .middle>h2 {
@@ -353,8 +366,8 @@ button:hover {
 
   .middle>p {
     font-size: 1rem;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
 
@@ -396,7 +409,7 @@ button:hover {
   .third {
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(#091639c3, #030e2dc9),
-      url("./images/Portfolio.jpg");
+      url("./images/tHE\ GAMING\ VIEW\ VISITING\ CARD\ BOTH\ SIDE\ VIEW.jpg");
     background-attachment: fixed;
     background-position: center;
   }
